@@ -12,7 +12,7 @@ class Digimon : public VirtualPet
 		void increaseHappiness(int amount);
 	
 	public:
-		Digimon(const string& name, int happiness, int hunger, const string& Element);
+		Digimon(const string& digiName, const string& digiElement);
 		void specialAttack();
 		void getElement();
 };

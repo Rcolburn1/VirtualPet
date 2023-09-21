@@ -13,6 +13,7 @@ class Gatomon : public Digimon
 		Gatomon(const string& name, const string& Element, int happiness, int hunger, int sharpness);
 		void useCatClawAttack();
 		void adjustSharpness(int amount);
+		void getSharpness();
 };
 
 #endif

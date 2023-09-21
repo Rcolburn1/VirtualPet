@@ -22,6 +22,26 @@ int main() {
 	cout << "Health: " << pokemanz.getHealth() << endl;
 	cout << "Species: " << pokemanz.getSpecies() << endl;
 
-	Pikachu PikaDude
+	Pikachu PikaDude("PikaDude", "Electric Mouse", 100, 120);
+	cout << "Name: " << PikaDude.getName() << endl;
+	cout << "Species: " << PikaDude.getSpecies() << " Pokemon" << endl;
+	cout << "Electric Power: " << PikaDude.getElectricPower() << endl;
+	cout << "Pikachu attack his Snorlax!" << endl;
+	Pikachu.useElectricShock();
+	cout << "Snorlax Fainted!" << endl;
+
+	Digimon digitalMonster("Greymon", "Fire");
+	cout << "Name: " << digitalMonster.getName() << endl;
+	cout << "Element: " << digitalMonster.getElement() << endl;
+	digitalMonster.useSpecialAttack();
+
+	Gatomon Gatomonz("GatoGato", "Holy", 100);
+	cout << "Name: " << Gatomonz.getName() << endl;
+	cout << "Element: " << Gatomonz.getElement() << endl;
+	cout << "Sharpness: " << Gatomonz.getSharpness() << endl;
+	cout << "Gatomonz Attacks!" << endl;
+	Gatomonz.useCatClawAttack();
+	cout << "Sharpness: " << Gatomonz.getSharpness() << endl;
+
 	return 0;
 }

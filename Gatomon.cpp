@@ -1,6 +1,6 @@
 #include "Gatomon.h"
 
-Gatomon::Gatomon(const string& name, const string& Element, int happiness, int hunger, int sharpness)
+Gatomon::Gatomon(const string& name, const string& Element, int happiness, int hunger, int sharpness) : Digimon(name)
 {
 	name = name;
 	element = Element;
@@ -27,4 +27,9 @@ void Gatomon::adjustSharpness(int amount)
 		catClawSharpness += amount;
 		cout << "Gatomon's claws dull!" << endl;
 	}
+}
+
+void Gatomon::getSharpness()
+{
+	cout << catClawSharpness << endl;
 }

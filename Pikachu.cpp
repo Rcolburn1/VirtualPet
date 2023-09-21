@@ -1,6 +1,6 @@
 #include "Pikachu.h"
 
-Pikachu::Pikachu(const string& name, const string& species, int health, int power)
+Pikachu::Pikachu(const string& name, const string& species, int health, int power) : Pokemon(name)
 {
 	name = name;
 	species = species;
@@ -8,8 +8,13 @@ Pikachu::Pikachu(const string& name, const string& species, int health, int powe
 	electricPower = power;
 }
 
-void useElectricShock()
+void Pikachu::useElectricShock()
 {
 	cout << "Pikachu uses Thunder!" << endl;
+}
+
+void Pikachu::getElectricPower()
+{
+	cout << electricpower << endl;
 }
 
