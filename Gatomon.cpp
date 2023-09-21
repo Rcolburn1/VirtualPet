@@ -28,7 +28,7 @@ void Gatomon::adjustSharpness(int amount)
 	}
 }
 
-void Gatomon::getSharpness()
+int Gatomon::getSharpness()
 {
-	cout << catClawSharpness << endl;
+	return catClawSharpness;
 }

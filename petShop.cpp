@@ -30,13 +30,13 @@ int main() {
 	cout << "Species: " << PikaDude.getSpecies() << " Pokemon" << endl;
 	cout << "Electric Power: " << PikaDude.getElectricPower() << endl;
 	cout << "Pikachu attack his Snorlax!" << endl;
-	Pikachu.useElectricShock();
+	PikaDude.useElectricShock();
 	cout << "Snorlax Fainted!" << endl;
 
 	Digimon digitalMonster("Greymon", "Fire");
 	cout << "Name: " << digitalMonster.getName() << endl;
 	cout << "Element: " << digitalMonster.getElement() << endl;
-	digitalMonster.useSpecialAttack();
+	digitalMonster.specialAttack();
 
 	Gatomon Gatomonz("GatoGato", "Holy", 100);
 	cout << "Name: " << Gatomonz.getName() << endl;

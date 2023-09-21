@@ -10,8 +10,8 @@ void Pikachu::useElectricShock()
 	cout << "Pikachu uses Thunder!" << endl;
 }
 
-void Pikachu::getElectricPower()
+int Pikachu::getElectricPower()
 {
-	cout << electricPower << endl;
+	return electricPower;
 }
 

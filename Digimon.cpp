@@ -10,8 +10,8 @@ void Digimon::specialAttack()
 	cout << "Special Attack!" << endl;
 }
 
-void Digimon::getElement()
+string Digimon::getElement()
 {
-	cout << element << endl;
+	return element;
 }
 
