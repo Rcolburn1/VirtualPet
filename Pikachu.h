@@ -12,7 +12,7 @@ class Pikachu : public Pokemon
 		void increaseHappiness(int amount);
 
 	public:
-		Pikachu(const string& name, const string& species, int health, int power);
+		Pikachu(const string& name, const string& species, int power);
 		void useElectricShock();
 		void getElectricPower();
 };

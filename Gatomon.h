@@ -1,7 +1,6 @@
 #ifndef GATOMON_H
 #define GATOMON_H
-
-using namespace std;
+#include "Digimon.h"
 
 class Gatomon : public Digimon
 {

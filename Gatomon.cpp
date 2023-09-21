@@ -1,9 +1,9 @@
 #include "Gatomon.h"
 #include <iostream>
+#include <string>
 
 Gatomon::Gatomon(const string& name, const string& Element, int sharpness) : Digimon(name, Element)
 {
-	element = Element;
 	catClawSharpness = sharpness;
 }
 
