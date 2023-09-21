@@ -1,10 +1,7 @@
 #include "Digimon.h"
 
-Digimon::Digimon(const string& name, const string& digiElement) : VirtualPet(name)
+Digimon::Digimon(const string& digiName, const string& digiElement) : VirtualPet(digiName)
 {
-	name = digiName;
-	happiness = 100;
-	hunger = 100;
 	element = digiElement;
 }
 
@@ -17,5 +14,4 @@ void Digimon::getElement()
 {
 	cout << element << endl;
 }
-
 

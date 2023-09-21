@@ -1,6 +1,8 @@
 #ifndef GATOMON_H
 #define GATOMON_H
 
+using namespace std;
+
 class Gatomon : public Digimon
 {
 	private:
@@ -10,7 +12,7 @@ class Gatomon : public Digimon
 		void increaseHappiness(int amount);
 
 	public:
-		Gatomon(const string& name, const string& Element, int happiness, int hunger, int sharpness);
+		Gatomon(const string& name, const string& Element, int sharpness);
 		void useCatClawAttack();
 		void adjustSharpness(int amount);
 		void getSharpness();

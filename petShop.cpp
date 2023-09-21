@@ -22,7 +22,7 @@ int main() {
 	cout << "Health: " << pokemanz.getHealth() << endl;
 	cout << "Species: " << pokemanz.getSpecies() << endl;
 
-	Pikachu PikaDude("PikaDude", "Electric Mouse", 100, 120);
+	Pikachu PikaDude("PikaDude", "Electric Mouse", 120);
 	cout << "Name: " << PikaDude.getName() << endl;
 	cout << "Species: " << PikaDude.getSpecies() << " Pokemon" << endl;
 	cout << "Electric Power: " << PikaDude.getElectricPower() << endl;
