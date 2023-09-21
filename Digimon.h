@@ -14,6 +14,7 @@ class Digimon : public VirtualPet
 	public:
 		Digimon(const string& name, int happiness, int hunger, const string& Element);
 		void specialAttack();
+		void getElement();
 };
 
 #endif

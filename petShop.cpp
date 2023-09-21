@@ -22,5 +22,6 @@ int main() {
 	cout << "Health: " << pokemanz.getHealth() << endl;
 	cout << "Species: " << pokemanz.getSpecies() << endl;
 
+	Pikachu PikaDude
 	return 0;
 }
